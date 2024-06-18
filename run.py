@@ -101,7 +101,7 @@ class Baseline_1(nn.Module):
     
 
 model_predictor = Baseline_1()
-device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
+device = torch.device('cpu')
 model_predictor.to(device)
 
 model_predictor.load_state_dict(torch.load('model.pt'))
