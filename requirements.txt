@@ -3,3 +3,4 @@ torch
 transformers
 matplotlib
 numpy
+SentencePiece
